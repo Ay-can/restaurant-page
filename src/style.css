@@ -10,7 +10,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 220px;
+  gap: 120px;
   text-align: center;
   box-sizing: content-box;
 }

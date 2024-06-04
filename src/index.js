@@ -24,7 +24,6 @@ menuBtn.addEventListener("click", () => {
 });
 
 aboutBtn.addEventListener("click", () => {
-  // not done
-  //removePreviousContent();
+  removePreviousContent();
   console.log("not done");
 });
