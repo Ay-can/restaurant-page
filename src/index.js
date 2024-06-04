@@ -1,6 +1,7 @@
 import style from "./style.css";
 import createHomeContent from "./homePage";
 import createMenuContent from "./menuPage";
+import createAboutContent from "./aboutPage";
 
 function removePreviousContent() {
   const content = document.querySelector("#content");
@@ -25,5 +26,5 @@ menuBtn.addEventListener("click", () => {
 
 aboutBtn.addEventListener("click", () => {
   removePreviousContent();
-  console.log("not done");
+  createAboutContent();
 });
