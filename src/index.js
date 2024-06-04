@@ -1,4 +1,4 @@
 import style from "./style.css";
-import createHomeContent from "./content";
+import createHomeContent from "./homePage";
 
 createHomeContent();

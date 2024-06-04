@@ -7,7 +7,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Production",
+      title: "Restaurant Page",
       template: "./src/index.html",
     }),
   ],
@@ -21,6 +21,10 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg)$i/,
+        type: "asset/resource",
       },
     ],
   },
