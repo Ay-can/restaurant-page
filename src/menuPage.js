@@ -1,4 +1,5 @@
 import pepperoniPizza from "./pepperoni-pizza.png";
+import cheesePizza from "./cheese-pizza.jpg";
 
 export default function createMenuContent() {
   const content = document.querySelector("#content");
@@ -16,6 +17,8 @@ export default function createMenuContent() {
 
   const firstMenuItemTitle = document.createElement("h3");
   const firstMenuItemDescription = document.createElement("p");
+  firstMenuItemTitle.classList.add("menu-title");
+  firstMenuItemDescription.classList.add("menu-description");
 
   firstMenuItemTitle.innerText = "Pepperoni Pizza";
   firstMenuItemDescription.innerText = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto quasi assumenda voluptas autem necessitatibus harum eaque sed illum illo doloremque!`;
