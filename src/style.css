@@ -37,7 +37,8 @@ p {
   padding: 20px;
 }
 
-#welcome-message {
+#welcome-message,
+h3 {
   color: white;
   display: inline-block;
   background-color: rgb(0, 0, 0, 0.7);
