@@ -1,5 +1,4 @@
 import pepperoniPizza from "./pepperoni-pizza.png";
-import cheesePizza from "./cheese-pizza.jpg";
 
 export default function createMenuContent() {
   const content = document.querySelector("#content");
